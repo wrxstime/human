@@ -21,7 +21,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-   color: mediumvioletred;
+   color: mediumseagreen;
 }
 
 li.dropdown {
@@ -54,26 +54,26 @@ li.dropdown {
  */
     h1{font-family: crimson, tajawal, serif;
     font-size: 20pt;
-    color: purple; 
+    color: green; 
     text-align:center;
         }
 
         h2{ font-family: crimson, tajawal, serif;
         font-size: 18pt;
-        color: purple;text-align:center;
+        color: green;text-align:center;
         }
 
         h3{
         font-family: crimson, tajawal, serif;
         font-size: 16pt;
-        color: purple;
+        color: green;
         }
 
         
         h4{
             font-family: crimson, tajawal, serif;
         font-size: 14pt;
-        color: purple;
+        color: green;
         }
 
         h5{
@@ -87,3 +87,16 @@ li.dropdown {
         color: black;
         }
         
+#main{
+    width: 600px;
+    float: left;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+    
+}

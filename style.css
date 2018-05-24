@@ -1,6 +1,6 @@
-/*I used a navigation tag for a dropdown menu.
-*/ 
-nav ul {
+/* This is a style for a dropdown menu.
+*/
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -8,11 +8,11 @@ nav ul {
     background-color: #333;
 }
 
-nav li {
+li {
     float: left;
 }
 
-nav li a, .dropbtn {
+li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -20,11 +20,11 @@ nav li a, .dropbtn {
     text-decoration: none;
 }
 
-nav li a:hover, .dropdown:hover .dropbtn {
-   color: mediumvioletred;
+li a:hover, .dropdown:hover .dropbtn {
+   color: mediumseagreen;
 }
 
-nav li.dropdown {
+li.dropdown {
     display: inline-block;
 }
 
@@ -50,36 +50,53 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-   h1{font-family: crimson, tajawal, serif;
+ /*This is a style for a body of the web-site.
+ */
+    h1{font-family: crimson, tajawal, serif;
     font-size: 20pt;
-    color: purple; 
+    color: green; 
     text-align:center;
         }
-    h2{color: purple;text-align:center;
-        font-family: crimson, tajawal, serif;
-        font-size: 18pt;
 
+        h2{ font-family: crimson, tajawal, serif;
+        font-size: 18pt;
+        color: green;text-align:center;
         }
 
-   h3{color: purple;
+        h3{
         font-family: crimson, tajawal, serif;
         font-size: 16pt;
+        color: green;
         }
 
         
-        h4{color: purple;
+        h4{
             font-family: crimson, tajawal, serif;
         font-size: 14pt;
-
+        color: green;
         }
-        h5{text-align:center;
+
+        h5{
             font-family: crimson, tajawal, serif;
             font-size: 13pt;
-
+            text-align:center;
         }
+
         p{font-family: crimson, tajawal, serif;
         font-size: 12pt;
         color: black;
         }
         
+#main{
+    width: 600px;
+    float: left;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+    
+}
